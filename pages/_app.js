@@ -1,5 +1,5 @@
 import { UserLayout, AdminLayout } from '../components/Layout';
-import '../styles/globals.css'
+import '../styles/globals.css';
 
 const layouts = {
   L1: UserLayout,

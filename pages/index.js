@@ -19,8 +19,8 @@ export const getStaticProps = async () => {
   return {
     props: {
       articles,
-      username: process.env.DB_USER,
-      password: process.env.DB_PASS,
+      // username: process.env.DB_USER,
+      // password: process.env.DB_PASS,
     },
   }
 }

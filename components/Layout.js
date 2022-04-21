@@ -20,7 +20,7 @@ export const AdminLayout = ({ children }) => {
   return <>
     <Meta />
     <AdminNav />
-    <div className={styles.container}>
+    <div className={styles.container} style={{ background: 'red' }}>
       <main className={styles.main}>
         <Header />
         {children}
